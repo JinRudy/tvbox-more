@@ -1,60 +1,60 @@
 {
     "urls": [
         {
-            "url": "http://www.饭太硬.com/tv",
-            "name": "🚀1-饭太硬热门入口"
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/youhunwl/TVBox/master/%E9%A5%AD%E5%A4%AA%E7%A1%AC.txt",
+            "name": "🚀1-饭太硬纯JSON"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/qist/tvbox/master/0826.json",
+            "name": "🚀2-饭太硬0826"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/qist/tvbox/master/0827.json",
+            "name": "🚀3-饭太硬0827"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/imlison/tvbox-conf/master/XBPQ.json",
+            "name": "🚀4-XBPQ饭太硬"
         },
         {
             "url": "http://肥猫.net/tv",
-            "name": "🚀2-肥猫纯配置"
+            "name": "🚀5-肥猫纯配置"
         },
         {
             "url": "http://tv.nxog.top/m/",
-            "name": "🚀3-欧歌线路"
+            "name": "🚀6-欧歌线路"
         },
         {
             "url": "http://liucn.cc/box/m.json",
-            "name": "🚀4-老刘CC"
+            "name": "🚀7-老刘CC"
         },
         {
             "url": "https://raw.liucn.cc/box/m.json",
-            "name": "🚀5-老刘镜像"
+            "name": "🚀8-老刘镜像"
         },
         {
             "url": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-            "name": "🚀6-高天流云"
+            "name": "🚀9-高天流云"
         },
         {
             "url": "https://szyyds.cn/tv/x.json",
-            "name": "🚀7-小马线路"
+            "name": "🚀10-小马线路"
         },
         {
             "url": "http://xhztv.top/xhz",
-            "name": "🚀8-小盒子"
-        },
-        {
-            "url": "http://xhztv.top/4k.json",
-            "name": "🚀9-小盒子4K"
+            "name": "🚀11-小盒子"
         },
         {
             "url": "http://home.jundie.top:81/top98.json",
-            "name": "🚀10-俊于线路"
+            "name": "🚀12-俊于线路"
         },
         {
             "url": "https://9280.kstore.vip/newwex.json",
-            "name": "🚀11-王二小新"
+            "name": "🚀13-王二小新"
         },
         {
             "url": "https://17264.kstore.space/哈基米.png",
-            "name": "🚀12-哈基米"
-        },
-        {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/Reflyer823/tvbox-config/master/main.json",
-            "name": "🚀13-饭太硬聚合"
-        },
-        {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/guot55/YGBH/main/vip2.json",
-            "name": "🚀14-宝盒VIP"
+            "name": "🚀14-哈基米"
         },
         {
             "url": "https://ghproxy.net/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
