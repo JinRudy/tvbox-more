@@ -1,60 +1,124 @@
 {
     "urls": [
         {
-            "url": "http://home.jundie.top:81/top98.json",
-            "name": "🚀1-俊于线路"
+            "url": "http://www.饭太硬.com/tv",
+            "name": "🚀1-饭太硬热门入口"
         },
         {
-            "url": "https://szyyds.cn/tv/x.json",
-            "name": "🚀2-小马线路"
+            "url": "http://肥猫.net/tv",
+            "name": "🚀2-肥猫纯配置"
         },
         {
-            "url": "https://www.yingm.cc/dm/dm.json",
-            "name": "🚀3-动漫城"
-        },
-        {
-            "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
-            "name": "🚀4-玄珠线路"
-        },
-        {
-            "url": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/yueer.json",
-            "name": "🚀5-月儿线路"
-        },
-        {
-            "url": "http://tv.nxog.top/m",
-            "name": "🚀6-欧歌线路"
-        },
-        {
-            "url": "https://mcp2016.github.io/TVBox/pj.json",
-            "name": "🚀7-鹏九线路"
-        },
-        {
-            "url": "https://tv.203511.xyz/0821.json",
-            "name": "🚀8-TSQ线路"
-        },
-        {
-            "url": "https://dxawi.github.io/0/0.json",
-            "name": "🚀9-dxawi线路"
-        },
-        {
-            "url": "http://xhztv.top/xhz",
-            "name": "🚀10-小盒子"
-        },
-        {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
-            "name": "🚀11-高天流云"
-        },
-        {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
-            "name": "🚀12-一木线路"
-        },
-        {
-            "url": "https://api.hgyx.vip/hgyx.json",
-            "name": "🚀13-HG线路"
+            "url": "http://tv.nxog.top/m/",
+            "name": "🚀3-欧歌线路"
         },
         {
             "url": "http://liucn.cc/box/m.json",
-            "name": "🚀14-老刘CC"
+            "name": "🚀4-老刘CC"
+        },
+        {
+            "url": "https://raw.liucn.cc/box/m.json",
+            "name": "🚀5-老刘镜像"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+            "name": "🚀6-高天流云"
+        },
+        {
+            "url": "https://szyyds.cn/tv/x.json",
+            "name": "🚀7-小马线路"
+        },
+        {
+            "url": "http://xhztv.top/xhz",
+            "name": "🚀8-小盒子"
+        },
+        {
+            "url": "http://xhztv.top/4k.json",
+            "name": "🚀9-小盒子4K"
+        },
+        {
+            "url": "http://home.jundie.top:81/top98.json",
+            "name": "🚀10-俊于线路"
+        },
+        {
+            "url": "https://9280.kstore.vip/newwex.json",
+            "name": "🚀11-王二小新"
+        },
+        {
+            "url": "https://17264.kstore.space/哈基米.png",
+            "name": "🚀12-哈基米"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/Reflyer823/tvbox-config/master/main.json",
+            "name": "🚀13-饭太硬聚合"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/guot55/YGBH/main/vip2.json",
+            "name": "🚀14-宝盒VIP"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
+            "name": "🚀15-东篱线路"
+        },
+        {
+            "url": "http://fmys.top/fmys.json",
+            "name": "🚀16-驸马线路"
+        },
+        {
+            "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+            "name": "🚀17-小苹果"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
+            "name": "🚀18-一木线路"
+        },
+        {
+            "url": "https://mcp2016.github.io/TVBox/pj.json",
+            "name": "🚀19-鹏九线路"
+        },
+        {
+            "url": "https://jihulab.com/yueer/yueera/-/raw/main/11.17/yueer.json",
+            "name": "🚀20-月儿线路"
+        },
+        {
+            "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
+            "name": "🚀21-玄珠线路"
+        },
+        {
+            "url": "https://dxawi.github.io/0/0.json",
+            "name": "🚀22-dxawi线路"
+        },
+        {
+            "url": "https://tv.203511.xyz/0821.json",
+            "name": "🚀23-TSQ线路"
+        },
+        {
+            "url": "https://www.252035.xyz/z/FongMi.json",
+            "name": "🚀24-真心线路"
+        },
+        {
+            "url": "https://android.lushunming.qzz.io/json/index.json",
+            "name": "🚀25-L佬线路"
+        },
+        {
+            "url": "https://www.yingm.cc/dm/dm.json",
+            "name": "🚀26-动漫城"
+        },
+        {
+            "url": "https://api.hgyx.vip/hgyx.json",
+            "name": "🚀27-HG线路"
+        },
+        {
+            "url": "https://pastebin.com/raw/gtbKvnE1",
+            "name": "🚀28-苹果CMS资源站"
+        },
+        {
+            "url": "https://cnb.cool/fish2018/duanju/-/git/raw/main/tvbox.json",
+            "name": "🚀29-短剧线路"
+        },
+        {
+            "url": "https://mcp2016.github.io/TVBox/urls.json",
+            "name": "🚀30-鹏九多仓"
         }
     ]
 }
