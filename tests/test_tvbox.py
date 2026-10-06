@@ -83,5 +83,27 @@ class TestTVBoxMultiConfig(unittest.TestCase):
             f"应包含肥猫相关源，当前源列表: {all_names_str}"
         )
 
+    def test_no_malicious_or_blacklisted_sources(self):
+        """测试严禁包含已知的流氓弹窗、遮罩锁定及恶意引流黑名单源"""
+        urls = self.data.get("urls", [])
+        blacklist_indicators = [
+            "124.223.214.31",
+            "47.96.82.41",
+            "starlink.fan",
+            "鸭先知IP"
+        ]
+        for item in urls:
+            u = item.get("url", "")
+            n = item.get("name", "")
+            for bl in blacklist_indicators:
+                self.assertNotIn(
+                    bl, u,
+                    f"安全违规: 配置中包含恶意黑名单URL ({bl}) -> {n}: {u}"
+                )
+                self.assertNotIn(
+                    bl, n,
+                    f"安全违规: 配置中包含恶意黑名单名称 ({bl}) -> {n}: {u}"
+                )
+
 if __name__ == "__main__":
     unittest.main()
