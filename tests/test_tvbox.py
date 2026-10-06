@@ -66,6 +66,27 @@ class TestTVBoxMultiConfig(unittest.TestCase):
                 raw_url.startswith("http://") or raw_url.startswith("https://"),
                 f"直播 URL 格式不合法: {raw_url}"
             )
+            # 校验不含失效的 kimentanm / fanmingming
+            self.assertNotIn("fanmingming", raw_url.lower(), "严禁包含已失效的 fanmingming/kimentanm 直播源")
+            self.assertNotIn("kimentanm", item.get("name", "").lower(), "严禁包含 kimentanm 直播项")
+
+        # 校验包含虎牙/斗鱼/抖音等网络平台直播源
+        has_platform_stream = any(
+            any(k in l.get("name", "") for k in ["虎牙", "斗鱼", "抖音", "网络直播"])
+            for l in lives
+        )
+        self.assertTrue(has_platform_stream, "lives 中必须包含多平台网络直播源(虎牙/斗鱼/抖音等)")
+
+    def test_no_m3u_in_urls(self):
+        """测试点播 urls 中绝不应混入 .m3u 纯直播文件，避免点播提示'配置加载失败'"""
+        urls = self.data.get("urls", [])
+        for item in urls:
+            u = item.get("url", "").lower()
+            n = item.get("name", "")
+            self.assertFalse(
+                u.endswith(".m3u") or u.endswith(".m3u8") or "gather.m3u" in u,
+                f"点播仓中混入了 .m3u 直播源文件，会导致TVBox加载失败: {n} -> {u}"
+            )
 
     def test_core_sources_coverage(self):
         """测试核心主流源的覆盖情况"""

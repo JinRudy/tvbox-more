@@ -188,36 +188,29 @@ CANDIDATE_URLS = [
     {"name": "鹏九多仓", "url": "https://mcp2016.github.io/TVBox/urls.json", "category": "multi"},
 ]
 
-# 高可用电视直播源定义 (用于根节点 lives)
+# 高可用直播源定义 (用于根节点 lives，包含网络平台直播与电视直播)
 HIGH_QUALITY_LIVES = [
     {
-        "name": "📡全国央视卫视超清 (IPv6优先/含4K)",
+        "name": "🎮多平台网络直播 (虎牙/斗鱼/抖音/B站专线)",
         "type": 0,
-        "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-        "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-        "logo": "https://epg.112114.xyz/logo/{name}.png",
+        "url": "https://live.yang-1989.eu.org/Live.m3u",
         "playerType": 1
     },
     {
-        "name": "📡全国央视卫视高清 (IPv4通用推荐)",
-        "type": 0,
-        "url": "https://live.fanmingming.com/tv/m3u/ipv4.m3u",
-        "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-        "logo": "https://epg.112114.xyz/logo/{name}.png",
-        "playerType": 1
-    },
-    {
-        "name": "📡综合电视频道汇总 (Gather源)",
+        "name": "📡全国央卫高清精选 (Gather综合源)",
         "type": 0,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
         "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-        "playerType": 2
+        "logo": "https://epg.112114.xyz/logo/{name}.png",
+        "playerType": 1
     },
     {
-        "name": "📡备用精选电视频道 (TXT格式)",
+        "name": "📡全国央卫频道 (CDN高速镜像)",
         "type": 0,
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/live.txt",
-        "playerType": 1
+        "url": "https://cdn.jsdelivr.net/gh/YanG-1989/m3u@main/Gather.m3u",
+        "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+        "logo": "https://epg.112114.xyz/logo/{name}.png",
+        "playerType": 2
     }
 ]
 
@@ -268,12 +261,7 @@ def main():
     alive_results.sort(key=lambda x: (cat_order.get(x[0]["category"], 99), x[1]))
 
     formatted_urls = []
-    # 纯电视直播单仓入口
-    formatted_urls.append({
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-        "name": "📡[电视直播] - 全国央卫超清专线"
-    })
-
+    # 注意：urls 为点播仓列表，绝不能混入 .m3u 纯直播源，否则会导致TVBox点播报“配置加载失败”
     index_map = {}
     for item, elapsed, info in alive_results:
         cat = item["category"]
