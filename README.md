@@ -24,15 +24,16 @@
 
 ## 🚀 使用方法
 
-在 TVBox 或影视仓等播放器的 **【设置】 -> 【配置地址】** 中填入以下直链（根据你的托管方式）：
+在 TVBox 或影视仓等播放器的 **【设置】 -> 【配置地址】** 中直接填入：
+
+```text
+https://tvbox.wushui.fun/tvboxmuti.json
+```
+
+备用 GitHub 源站直链 / 加速镜像：
 
 ```text
 https://raw.githubusercontent.com/JinRudy/tvbox-more/main/tvboxmuti.json
-```
-
-或使用 GitHub 加速镜像：
-
-```text
 https://gh-proxy.com/https://raw.githubusercontent.com/JinRudy/tvbox-more/main/tvboxmuti.json
 ```
 
