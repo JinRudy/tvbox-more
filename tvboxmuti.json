@@ -119,13 +119,15 @@
     ],
     "lives": [
         {
-            "name": "🎮多平台网络直播 (虎牙/斗鱼/抖音/B站专线)",
+            "name": "🔥自建极速全能直播 (央卫/虎牙斗鱼轮播/港台外台代理)",
             "type": 0,
-            "url": "https://live.yang-1989.eu.org/Live.m3u",
+            "url": "https://tvbox.wushui.fun/tvboxlive.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
             "playerType": 1
         },
         {
-            "name": "📡全国央卫高清精选 (Gather综合源)",
+            "name": "📡全国央卫高清精选 (Gather综合备用源)",
             "type": 0,
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
@@ -133,7 +135,7 @@
             "playerType": 1
         },
         {
-            "name": "📡全国央卫频道 (CDN高速镜像)",
+            "name": "📡全国央卫频道 (CDN高速镜像备用)",
             "type": 0,
             "url": "https://cdn.jsdelivr.net/gh/YanG-1989/m3u@main/Gather.m3u",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
