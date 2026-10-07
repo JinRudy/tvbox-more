@@ -45,5 +45,18 @@ class TestTVBoxLiveConfig(unittest.TestCase):
         # 验证包含基于 Cloudflare 的代理转发链接
         self.assertIn("tvbox.wushui.fun/proxy?url=", self.content, "必须包含针对海外受限频道的云端代理链接")
 
+    def test_no_crash_characters_and_fake_mp4(self):
+        """测试严禁包含导致电视盒子解析截断的字符和假短视频"""
+        lines = self.content.splitlines()
+        for l in lines:
+            if "," in l and not "#genre#" in l:
+                _, url = l.strip().split(",", 1)
+                self.assertNotIn("[", url, f"严禁包含 IPv6 方括号导致安卓解析崩溃: {url}")
+                self.assertNotIn("]", url, f"严禁包含 IPv6 方括号导致安卓解析崩溃: {url}")
+                self.assertNotIn("%2C", url, f"严禁包含逗号转码字符导致 TVBox 切割截断: {url}")
+                self.assertFalse(url.endswith(".mp4"), f"严禁包含 mp4 录像假台: {url}")
+                self.assertNotIn("kwimgs", url, f"严禁包含快手短视频假台: {url}")
+                self.assertLessEqual(len(url), 230, f"URL 过长可能导致低配电视内存溢出: {url}")
+
 if __name__ == "__main__":
     unittest.main()
