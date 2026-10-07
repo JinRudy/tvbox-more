@@ -89,19 +89,21 @@ class TestTVBoxMultiConfig(unittest.TestCase):
             )
 
     def test_core_sources_coverage(self):
-        """测试核心主流源的覆盖情况"""
+        """测试核心主流源的覆盖情况与顶级双雄置顶"""
         urls = self.data.get("urls", [])
-        names = [item.get("name", "") for item in urls]
-        all_names_str = " ".join(names)
+        self.assertGreaterEqual(len(urls), 2)
         
-        # 验证核心标志性源存在
-        self.assertTrue(
-            any("饭太硬" in n for n in names),
-            f"应包含饭太硬相关源，当前源列表: {all_names_str}"
-        )
-        self.assertTrue(
-            any("肥猫" in n for n in names),
-            f"应包含肥猫相关源，当前源列表: {all_names_str}"
+        # 验证肥猫主仓与饭太硬主仓牢牢占据主力前两位
+        top1_name = urls[0].get("name", "")
+        top2_name = urls[1].get("name", "")
+        self.assertIn("肥猫", top1_name, f"第1位必须为肥猫主仓，当前为: {top1_name}")
+        self.assertIn("饭太硬", top2_name, f"第2位必须为饭太硬主仓，当前为: {top2_name}")
+
+        # 验证俊于线路不在前5位
+        top5_names = [u.get("name", "") for u in urls[:5]]
+        self.assertFalse(
+            any("俊于" in n for n in top5_names),
+            f"俊于线路因仅存360独苗，已降级，不得占据前5位: {top5_names}"
         )
 
     def test_no_malicious_or_blacklisted_sources(self):

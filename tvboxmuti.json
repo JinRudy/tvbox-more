@@ -1,156 +1,120 @@
 {
     "urls": [
         {
-            "url": "http://home.jundie.top:81/top98.json",
-            "name": "⭐[精选主力] 1-俊于线路"
-        },
-        {
-            "url": "https://9280.kstore.vip/newwex.json",
-            "name": "⭐[精选主力] 2-王二小新仓"
+            "url": "http://xn--z7x900a.net/",
+            "name": "⭐[精选主力] 1-肥猫主仓"
         },
         {
             "url": "https://qist.wyfc.qzz.io/fty.json",
-            "name": "⭐[精选主力] 3-饭太硬主仓"
+            "name": "⭐[精选主力] 2-饭太硬主仓"
         },
         {
-            "url": "http://xn--z7x900a.net/",
-            "name": "⭐[精选主力] 4-肥猫主仓"
+            "url": "https://qist.wyfc.qzz.io/0826.json",
+            "name": "⭐[精选主力] 3-饭太硬0826"
         },
         {
-            "url": "https://tv.xn--yhqu5zs87a.top",
-            "name": "⭐[精选主力] 5-胖鸭线路"
+            "url": "https://qist.wyfc.qzz.io/0821.json",
+            "name": "⭐[精选主力] 4-饭太硬增强0821"
+        },
+        {
+            "url": "https://9280.kstore.vip/newwex.json",
+            "name": "⭐[精选主力] 5-王二小新仓"
         },
         {
             "url": "http://xhztv.top/xhz",
             "name": "⭐[精选主力] 6-小盒子综合"
         },
         {
-            "url": "https://szyyds.cn/tv/x.json",
-            "name": "⚽[体育专线] 1-小马体育"
+            "url": "https://qist.wyfc.qzz.io/xiaosa/api.json",
+            "name": "⭐[精选主力] 7-潇洒Qist"
         },
         {
             "url": "https://qist.wyfc.qzz.io/jsm.json",
-            "name": "⚽[体育专线] 2-高天JSM体育"
+            "name": "⚽[体育专线] 1-高天JSM体育"
         },
         {
-            "url": "http://550.3vcn.work/wdjyys.json",
-            "name": "⚽[体育专线] 3-无敌剪影体育"
+            "url": "https://szyyds.cn/tv/x.json",
+            "name": "⚽[体育专线] 2-小马体育"
+        },
+        {
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/chitue/dongliTV/main/api.json",
+            "name": "⚽[体育专线] 3-东篱体育"
         },
         {
             "url": "https://www.yingm.cc/dm/dm.json",
             "name": "👶[少儿动漫] 1-动漫城专线"
         },
         {
-            "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
-            "name": "👶[少儿动漫] 2-夜猫少儿"
-        },
-        {
-            "url": "https://9280.kstore.space/wex.json",
-            "name": "🎬[综合影视] 1-王二小WEX"
-        },
-        {
-            "url": "https://9280.kstore.space/newwex.json",
-            "name": "🎬[综合影视] 2-牛二新仓"
-        },
-        {
-            "url": "https://ym.wya6.cn/",
-            "name": "🎬[综合影视] 3-微视界"
-        },
-        {
-            "url": "https://www.iyouhun.com/tv/wex",
-            "name": "🎬[综合影视] 4-游魂WEX"
-        },
-        {
-            "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
-            "name": "🎬[综合影视] 5-VIP备用0211"
-        },
-        {
-            "url": "https://700sjro44343.vicp.fun/vip/vip/tv.json",
-            "name": "🎬[综合影视] 6-VIP线路"
-        },
-        {
-            "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
-            "name": "🎬[综合影视] 7-玄珠线路"
-        },
-        {
-            "url": "https://android.lushunming.qzz.io/json/index.json",
-            "name": "🎬[综合影视] 8-L佬线路"
-        },
-        {
-            "url": "http://xhztv.top/4k.json",
-            "name": "🎬[综合影视] 9-小盒子4K"
+            "url": "https://qist.wyfc.qzz.io/js.json",
+            "name": "🎬[综合影视] 1-高天JS线路"
         },
         {
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
-            "name": "🎬[综合影视] 10-一木自用"
+            "name": "🎬[综合影视] 2-一木自用"
+        },
+        {
+            "url": "https://www.iyouhun.com/tv/wex",
+            "name": "🎬[综合影视] 3-游魂WEX"
+        },
+        {
+            "url": "https://9280.kstore.space/newwex.json",
+            "name": "🎬[综合影视] 4-牛二新仓"
+        },
+        {
+            "url": "https://9280.kstore.space/wex.json",
+            "name": "🎬[综合影视] 5-王二小WEX"
+        },
+        {
+            "url": "https://jihulab.com/xuanzhuapp/xzys/-/raw/main/xzvip.json",
+            "name": "🎬[综合影视] 6-玄珠线路"
+        },
+        {
+            "url": "https://android.lushunming.qzz.io/json/index.json",
+            "name": "🎬[综合影视] 7-L佬线路"
         },
         {
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
-            "name": "🎬[综合影视] 11-SVIP超清源"
-        },
-        {
-            "url": "https://tv.203511.xyz/0821.json",
-            "name": "🎬[综合影视] 12-TSQ荐片"
-        },
-        {
-            "url": "https://qist.wyfc.qzz.io/xiaosa/api.json",
-            "name": "🎬[综合影视] 13-潇洒Qist"
-        },
-        {
-            "url": "https://mcp2016.github.io/TVBox/pj.json",
-            "name": "🎬[综合影视] 14-鹏九线路"
-        },
-        {
-            "url": "https://qist.wyfc.qzz.io/0821.json",
-            "name": "🎬[综合影视] 15-饭太硬增强0821"
-        },
-        {
-            "url": "https://qist.wyfc.qzz.io/0826.json",
-            "name": "🎬[综合影视] 16-饭太硬0826"
+            "name": "🎬[综合影视] 8-SVIP超清源"
         },
         {
             "url": "https://qist.wyfc.qzz.io/0827.json",
-            "name": "🎬[综合影视] 17-高天FM0827"
+            "name": "🎬[综合影视] 9-高天FM0827"
         },
         {
             "url": "https://qist.wyfc.qzz.io/99188.json",
-            "name": "🎬[综合影视] 18-高天99188"
-        },
-        {
-            "url": "https://fty.888484.xyz/tv",
-            "name": "🎬[综合影视] 19-饭太硬XYZ线路"
-        },
-        {
-            "url": "https://dxawi.github.io/0/0.json",
-            "name": "🎬[综合影视] 20-dxawi线路"
-        },
-        {
-            "url": "https://qist.wyfc.qzz.io/js.json",
-            "name": "🎬[综合影视] 21-高天JS线路"
-        },
-        {
-            "url": "https://qist.wyfc.qzz.io/0825.json",
-            "name": "🎬[综合影视] 22-饭太硬PG0825"
-        },
-        {
-            "url": "https://qist.wyfc.qzz.io/dianshi.json",
-            "name": "🎬[综合影视] 23-高天电视"
+            "name": "🎬[综合影视] 10-高天99188"
         },
         {
             "url": "https://qist.wyfc.qzz.io/9918.json",
-            "name": "🎬[综合影视] 24-高天9918"
+            "name": "🎬[综合影视] 11-高天9918"
         },
         {
-            "url": "http://ztha.top/TVBox/GYCK.json",
-            "name": "📦[综合多仓] 1-挺好多仓"
+            "url": "https://qist.wyfc.qzz.io/0825.json",
+            "name": "🎬[综合影视] 12-饭太硬PG0825"
         },
         {
-            "url": "https://mcp2016.github.io/TVBox/urls.json",
-            "name": "📦[综合多仓] 2-鹏九多仓"
+            "url": "https://qist.wyfc.qzz.io/dianshi.json",
+            "name": "🎬[综合影视] 13-高天电视"
         },
         {
-            "url": "http://xhztv.top/dc",
-            "name": "📦[综合多仓] 3-小盒子多仓"
+            "url": "https://700sjro44343.vicp.fun/vip/vip/tv.json",
+            "name": "🎬[综合影视] 14-VIP线路"
+        },
+        {
+            "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json",
+            "name": "🎬[综合影视] 15-VIP备用0211"
+        },
+        {
+            "url": "https://tv.203511.xyz/0821.json",
+            "name": "🎬[综合影视] 16-TSQ荐片"
+        },
+        {
+            "url": "https://mcp2016.github.io/TVBox/pj.json",
+            "name": "🎬[综合影视] 17-鹏九线路"
+        },
+        {
+            "url": "http://home.jundie.top:81/top98.json",
+            "name": "🎬[综合影视] 18-俊于线路(360备用)"
         }
     ],
     "lives": [
