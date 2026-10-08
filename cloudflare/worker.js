@@ -20,11 +20,42 @@ export default {
       });
     }
 
-    // 2. 从 query 中提取目标 URL
+    // 2. 处理安全云端网盘凭据分发 (/token.json)
+    // 凭据完全存放在 Cloudflare Worker 内部环境变量(Secrets)，GitHub 仓库不留任何痕迹
+    if (requestUrl.pathname === "/token.json") {
+      const expectedKey = env.AUTH_KEY || "";
+      const clientKey = requestUrl.searchParams.get("key") || "";
+
+      if (expectedKey && clientKey !== expectedKey) {
+        return new Response(JSON.stringify({ error: "Unauthorized: Invalid key" }), {
+          status: 403,
+          headers: { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" }
+        });
+      }
+
+      const tokenPayload = {
+        token: env.ALI_TOKEN || "",
+        open_token: env.ALI_OPEN_TOKEN || "",
+        quark_cookie: env.QUARK_COOKIE || "",
+        thread_limit: parseInt(env.THREAD_LIMIT || "8", 10),
+        is_vip: true
+      };
+
+      return new Response(JSON.stringify(tokenPayload, null, 2), {
+        status: 200,
+        headers: {
+          "Content-Type": "application/json; charset=utf-8",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "no-store, no-cache, must-revalidate"
+        }
+      });
+    }
+
+    // 3. 从 query 中提取目标 URL (M3U8 反向代理)
     let targetUrlStr = requestUrl.searchParams.get("url");
     if (!targetUrlStr) {
       return new Response(
-        "M3U8 Streaming Proxy is Running!\nUsage: /proxy?url=https://example.com/live.m3u8",
+        "TVBox Cloudflare Service is Running!\nUsage:\n- Stream Proxy: /proxy?url=https://example.com/live.m3u8\n- Safe Token: /token.json",
         {
           status: 200,
           headers: { "Content-Type": "text/plain; charset=utf-8" },

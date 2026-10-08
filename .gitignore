@@ -1,3 +1,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# 敏感网盘凭据与私密配置 (严禁提交到公开仓库)
+token.json
+*secret*
+*.env
+config/my_token.json
