@@ -1,12 +1,8 @@
 {
     "urls": [
         {
-            "url": "http://xn--z7x900a.net/",
-            "name": "⭐[精选主力] 1-肥猫主仓"
-        },
-        {
-            "url": "https://qist.wyfc.qzz.io/fty.json",
-            "name": "⭐[精选主力] 2-饭太硬主仓"
+            "url": "https://tvbox.wushui.fun/tvboxvod.json",
+            "name": "👑[自建纯净] 0-无水全网透明主仓"
         },
         {
             "url": "https://qist.wyfc.qzz.io/0826.json",
@@ -51,10 +47,6 @@
         {
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
             "name": "🎬[综合影视] 2-一木自用"
-        },
-        {
-            "url": "https://www.iyouhun.com/tv/wex",
-            "name": "🎬[综合影视] 3-游魂WEX"
         },
         {
             "url": "https://9280.kstore.space/newwex.json",
@@ -119,28 +111,9 @@
     ],
     "lives": [
         {
-            "name": "🔥自建极速全能直播 (央卫/虎牙斗鱼轮播/港台外台代理)",
+            "name": "无水精选高可用电视与网络直播",
             "type": 0,
-            "url": "https://tvbox.wushui.fun/tvboxlive.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "playerType": 1
-        },
-        {
-            "name": "📡全国央卫高清精选 (Gather综合备用源)",
-            "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "playerType": 1
-        },
-        {
-            "name": "📡全国央卫频道 (CDN高速镜像备用)",
-            "type": 0,
-            "url": "https://cdn.jsdelivr.net/gh/YanG-1989/m3u@main/Gather.m3u",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "playerType": 2
+            "url": "https://tvbox.wushui.fun/tvboxlive.txt"
         }
     ]
 }

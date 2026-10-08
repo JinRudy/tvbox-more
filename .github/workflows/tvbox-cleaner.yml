@@ -1,0 +1,43 @@
+name: TVBox Cleaner & Governance Pipeline
+
+on:
+  schedule:
+    # 每天 UTC 04:00 与 16:00 定时执行 (对应北京时间 12:00 与 00:00)
+    - cron: '0 4,16 * * *'
+  workflow_dispatch: # 支持在 GitHub 仓库操作界面随时手动一键触发
+
+permissions:
+  contents: write
+
+jobs:
+  clean-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 3.10 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 运行 TVBox 源治理与深度清洗引擎
+        run: |
+          python3 scripts/run_all_cleaners.py
+
+      - name: 运行质量测试门禁 (TDD Validation)
+        run: |
+          python3 -m unittest discover tests
+
+      - name: 提交并推送到 GitHub 远程仓库
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add tvboxlive.txt tvboxvod.json tvboxmuti.json token.json
+          if git diff --staged --quiet; then
+            echo "无实质内容更新，无需提交。"
+          else
+            git commit -m "chore(auto): GitHub Actions 自动清洗、切片体检与源治理更新 [skip ci]"
+            git push origin main
+          fi

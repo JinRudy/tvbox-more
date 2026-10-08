@@ -57,6 +57,14 @@ class TestTVBoxLiveConfig(unittest.TestCase):
                 self.assertFalse(url.endswith(".mp4"), f"严禁包含 mp4 录像假台: {url}")
                 self.assertNotIn("kwimgs", url, f"严禁包含快手短视频假台: {url}")
                 self.assertLessEqual(len(url), 230, f"URL 过长可能导致低配电视内存溢出: {url}")
+                # 严格禁止已知的广告垫片 VPS IP
+                for fake_ip in ["74.91.26.", "63.141.230.", "38.75.136."]:
+                    self.assertNotIn(fake_ip, url, f"严禁包含切片404广告垫片假VPS: {url}")
+
+    def test_minimum_channel_count(self):
+        """测试存活频道数量门禁 (防熔断)"""
+        channel_lines = [l for l in self.content.splitlines() if "," in l and not "#genre#" in l]
+        self.assertGreaterEqual(len(channel_lines), 60, f"总频道数不应少于 60，当前仅 {len(channel_lines)}")
 
 if __name__ == "__main__":
     unittest.main()

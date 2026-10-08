@@ -1,0 +1,8 @@
+{
+  "token": "",
+  "open_token": "",
+  "quark_cookie": "",
+  "thread_limit": 8,
+  "is_vip": true,
+  "desc": "TVBox/影视仓 全局云端网盘免扫码凭据。可直接在平台端或GitHub Secrets中配置，全家电视机免手机扫码即开4K原盘。"
+}

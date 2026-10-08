@@ -1,132 +1,134 @@
 央视频道,#genre#
 CCTV-13新闻 [官方超清],http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 CCTV-8电视剧,http://gmxw.7766.org:808/hls/96/index.m3u8
-CCTV-5体育,http://gmxw.7766.org:808/hls/93/index.m3u8
-CCTV-12社会与法,http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-5体育竞技,http://gmxw.7766.org:808/hls/93/index.m3u8
 CCTV-15音乐,http://gmxw.7766.org:808/hls/102/index.m3u8
-CCTV-16奥林匹克,http://gmxw.7766.org:808/hls/169/index.m3u8
-CGTN 英语新闻 [总台原发],https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 CGTN 纪录频道 [总台原发],http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+CCTV-1综合,http://112.27.5.218:9901/tsfile/live/faacts/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-2财经,http://112.27.5.218:9901/tsfile/live/faacts/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-4中文国际,http://112.27.5.218:9901/tsfile/live/faacts/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-7国防军事,http://112.27.5.218:9901/tsfile/live/faacts/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-9纪录,http://112.27.5.218:9901/tsfile/live/faacts/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-10科教,http://112.27.5.218:9901/tsfile/live/faacts/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-12社会与法,http://112.27.5.218:9901/tsfile/live/faacts/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 
 卫视频道,#genre#
 浙江卫视 [阿里官方1080P],https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-浙江卫视 [官方备用],http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-湖南卫视 [芒果TV官方CDN],http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-东方卫视 [百视通官方CDN],http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-东南卫视 [福建广电官方CDN],http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-深圳卫视,http://gmxw.7766.org:808/hls/45/index.m3u8
-安徽卫视,http://gmxw.7766.org:808/hls/40/index.m3u8
-河南卫视,http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
+东方卫视 [百视通官方超清],http://116.228.84.148:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+湖南卫视 [广电原发1080P],http://hw-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+江苏卫视 [官方原画],http://112.27.5.218:9901/tsfile/live/faacts/0104_1.m3u8?key=txiptv&playlive=1&authid=0
+北京卫视 [歌华正版超清],http://112.27.5.218:9901/tsfile/live/faacts/0101_1.m3u8?key=txiptv&playlive=1&authid=0
+广东卫视,http://112.27.5.218:9901/tsfile/live/faacts/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+山东卫视,http://112.27.5.218:9901/tsfile/live/faacts/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽卫视,http://112.27.5.218:9901/tsfile/live/faacts/0108_1.m3u8?key=txiptv&playlive=1&authid=0
+深圳卫视,http://112.27.5.218:9901/tsfile/live/faacts/0112_1.m3u8?key=txiptv&playlive=1&authid=0
 江西卫视,http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 
 体育竞技,#genre#
 CCTV-5体育,http://gmxw.7766.org:808/hls/93/index.m3u8
-纬来体育,https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
+广东体育,http://112.27.5.218:9901/tsfile/live/faacts/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+山东体育,http://112.27.5.218:9901/tsfile/live/faacts/0115_1.m3u8?key=txiptv&playlive=1&authid=0
 
 港澳台专线,#genre#
 凤凰卫视中文台,https://7612-5516-affc-d88b.kylintv.tv/live/pxinhd_iphone.m3u8
-凤凰卫视香港台,http://r.jdshipin.com/yDoTN
-TVB 翡翠台,http://r.jdshipin.com/62WM7
-TVBS 亚洲台,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-无线新闻台,https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8
+凤凰卫视资讯台,https://7612-5516-affc-d88b.kylintv.tv/live/pxinzhd_iphone.m3u8
+翡翠台 (TVB),https://7612-5516-affc-d88b.kylintv.tv/live/inwhd_iphone.m3u8
+明珠台 (TVB),https://7612-5516-affc-d88b.kylintv.tv/live/inpmhd_iphone.m3u8
 纬来体育台,https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
 
 国际频道(免翻/代理),#genre#
 DW 德国之声 (直连),https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
 DW 德国之声 (代理),https://tvbox.wushui.fun/proxy?url=https%3A//amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
-NHK World-Japan (直连),https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
-NHK World-Japan (代理),https://tvbox.wushui.fun/proxy?url=https%3A//masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
-France 24 法国24 (直连),https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
-France 24 法国24 (代理),https://tvbox.wushui.fun/proxy?url=https%3A//live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
-Bloomberg 彭博财经 (直连),https://bloomberg.com/media-manifest/streams/qt.m3u8
-Bloomberg 彭博财经 (代理),https://tvbox.wushui.fun/proxy?url=https%3A//bloomberg.com/media-manifest/streams/qt.m3u8
-Al Jazeera 半岛英语 (直连),https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-Al Jazeera 半岛英语 (代理),https://tvbox.wushui.fun/proxy?url=https%3A//live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-ABC News Live (代理),https://tvbox.wushui.fun/proxy?url=https%3A//abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
-CBS News 24/7 (代理),https://tvbox.wushui.fun/proxy?url=https%3A//jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
-CNN Prima (代理),https://tvbox.wushui.fun/proxy?url=http%3A//88.212.15.19/live/test_cnn_pirma_news/playlist.m3u8
-BBC News (代理),https://tvbox.wushui.fun/proxy?url=http%3A//193.46.58.239%3A8080/BBCTwoHD/index.m3u8
+France 24 法国24 (直连),https://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8
+France 24 法国24 (代理),https://tvbox.wushui.fun/proxy?url=https%3A//f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8
+NHK World 日本 (直连),https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
+NHK World 日本 (代理),https://tvbox.wushui.fun/proxy?url=https%3A//nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8
+Arirang TV 阿里郎 (代理),https://tvbox.wushui.fun/proxy?url=https%3A//arirangworld.akamaized.net/hls/live/2026362/live/world/master.m3u8
+CNN USA (代理),https://tvbox.wushui.fun/proxy?url=http%3A//23.239.31.26%3A8989/cnn/index.m3u8
 BBC America (代理),https://tvbox.wushui.fun/proxy?url=http%3A//23.239.31.26%3A8989/bbcamerica/index.m3u8
 
 🎮虎牙斗鱼轮播,#genre#
+[B站] 经典老电影24H,https://epg.pw/stream/bili_cinema.m3u8
+[B站] 高清国风音画精选,https://epg.pw/stream/bili_music.m3u8
+[抖音] 4K大美中国慢直播,https://epg.pw/stream/douyin_nature.m3u8
+[抖音] 经典老歌现场展播,https://epg.pw/stream/douyin_livemusic.m3u8
 [虎牙] 大家好 我曾小咸又回来啦,https://live.ottiptv.cc/huya/11336726
-[斗鱼] 橙記 最人气港剧间,https://live.ottiptv.cc/douyu/4549169
+[斗鱼] ─「 橙記 最人气港剧间 」─,https://live.ottiptv.cc/douyu/4549169
 [虎牙] 铁齿铜ya纪晓岚 经典铁三角组合,https://live.ottiptv.cc/huya/11342396
-[斗鱼] (小毅）小毅剧场点播,https://live.ottiptv.cc/douyu/6906628
-[虎牙] 星爷 达文西 搞笑,https://live.ottiptv.cc/huya/30611864
-[斗鱼] 奇光黑虎阿福乌鸦坐飞机,https://live.ottiptv.cc/douyu/12560807
-[虎牙] 滚滚长江东逝水,https://live.ottiptv.cc/huya/11352944
-[斗鱼] （小毅)特级厨师刘昂星,https://live.ottiptv.cc/douyu/12851401
-[虎牙] 连杀17人最小14岁 史上最变态的食人魔,https://live.ottiptv.cc/huya/30080142
-[斗鱼] （小毅) 罗温.艾金森动画,https://live.ottiptv.cc/douyu/12890335
-[虎牙] 周星星星爷经典不间断,https://live.ottiptv.cc/huya/11342412
-[斗鱼] 奇光24H小时不间断 怀旧经典老剧,https://live.ottiptv.cc/douyu/8009547
-[虎牙] 经典9.8分动作电影系列,https://live.ottiptv.cc/huya/30509122
-[斗鱼] 奇光谁的青春没有终极系列,https://live.ottiptv.cc/douyu/11849873
-[虎牙] 雍正大帝~传奇一生,https://live.ottiptv.cc/huya/29807061
-[斗鱼] runningman点播 &轮播,https://live.ottiptv.cc/douyu/4184217
-[虎牙] 国语版柯南 点到哪集看哪集,https://live.ottiptv.cc/huya/30080148
-[斗鱼] 幸福的童年治愈一生 不幸的童年用一生治愈,https://live.ottiptv.cc/douyu/1487654
-[虎牙] 特么的暴雨梨花针是我童年的阴影,https://live.ottiptv.cc/huya/11352958
-[斗鱼] 贝贝祝大家国庆节快乐！,https://live.ottiptv.cc/douyu/431460
-[虎牙] 古灵精探,https://live.ottiptv.cc/huya/31126589
-[斗鱼] 女神金一起来看剧啦！,https://live.ottiptv.cc/douyu/747764
-[虎牙] 万字盘点经典特工电影《碟中谍》1-3部,https://live.ottiptv.cc/huya/13303478
-[斗鱼] 三国演义-top1的直播间,https://live.ottiptv.cc/douyu/12886210
-[虎牙] 澳门那种电影,https://live.ottiptv.cc/huya/31307674
-[斗鱼] 神 剧的直播间,https://live.ottiptv.cc/douyu/3439096
-[虎牙] 庆yu年2 与范闲再探庙堂江湖,https://live.ottiptv.cc/huya/23740156
-[斗鱼] 蓝翔弹幕天团,https://live.ottiptv.cc/douyu/5908256
-[虎牙] 啊啊啊啊我好害怕,https://live.ottiptv.cc/huya/31311959
-[斗鱼] 冰平安顺遂~~~,https://live.ottiptv.cc/douyu/74374
-[虎牙] 英叔 任老爷上夜班,https://live.ottiptv.cc/huya/30513350
-[斗鱼] 鼎香楼的故事,https://live.ottiptv.cc/douyu/299854
-[虎牙] 鬼吹灯 胡八一 雪莉杨,https://live.ottiptv.cc/huya/31027196
-[斗鱼] 元芳到底看不看,https://live.ottiptv.cc/douyu/6027991
-[虎牙] 三叉戟,https://live.ottiptv.cc/huya/18527383
-[斗鱼] 斗鱼音乐MV频道（自助点播）,https://live.ottiptv.cc/douyu/3870925
-[虎牙] 滚滚长江,https://live.ottiptv.cc/huya/30974902
-[斗鱼] 粤语电影粤电视剧 禁止弹幕报任何剧名,https://live.ottiptv.cc/douyu/1226741
-[虎牙] 鬼吹灯系列 胡八一,https://live.ottiptv.cc/huya/31388739
-[斗鱼] 神 剧,https://live.ottiptv.cc/douyu/5875025
-[虎牙] 恐怖喜剧僵尸先生 新僵尸先生 林正英~,https://live.ottiptv.cc/huya/30830295
-[斗鱼] 家有诤子&nbsp;&nbsp;不败其家,https://live.ottiptv.cc/douyu/6911044
-[虎牙] 高分经典电影 ),https://live.ottiptv.cc/huya/31316013
-[斗鱼] 蓝翔。,https://live.ottiptv.cc/douyu/7459925
+[斗鱼] 小毅 你的童年我的童年好像不一样,https://live.ottiptv.cc/douyu/11851549
 [虎牙] 精彩 电影,https://live.ottiptv.cc/huya/31307996
-[斗鱼] 牛叔N分钟带你看完大片,https://live.ottiptv.cc/douyu/2758565
-[虎牙] 洪金宝元彪成龙合作电影,https://live.ottiptv.cc/huya/31298889
-[斗鱼] 正常开播 欢迎欢迎,https://live.ottiptv.cc/douyu/319576
-[虎牙] 吞蚀星空#罗峰,https://live.ottiptv.cc/huya/29835716
-[斗鱼] 斗鱼最强女团Kpop女团点播直播间,https://live.ottiptv.cc/douyu/329667
-[虎牙] 97前的纯港片,https://live.ottiptv.cc/huya/31297160
-[斗鱼] 怡宝陪你重刷精彩热剧,https://live.ottiptv.cc/douyu/434971
-[虎牙] 旧社会西装黑社会,https://live.ottiptv.cc/huya/30995188
-[斗鱼] 倍速播放快乐会加倍！,https://live.ottiptv.cc/douyu/4105989
-[虎牙] 港片天花板 刘德华梁朝伟,https://live.ottiptv.cc/huya/31107167
-[斗鱼] 神探狄仁杰,https://live.ottiptv.cc/douyu/12655359
-[虎牙] 让一台冲锋车消失,https://live.ottiptv.cc/huya/30951578
-[斗鱼] 超清1经典港剧天地,https://live.ottiptv.cc/douyu/4290711
-[虎牙] 海绵宝宝黄方块的爆笑生活~,https://live.ottiptv.cc/huya/11352919
-[斗鱼] 懒猫 美食家 点播,https://live.ottiptv.cc/douyu/260322
-[虎牙] 三叉戟 大背头,https://live.ottiptv.cc/huya/31371713
-[斗鱼] 范闲：第二部什么时候可以播？,https://live.ottiptv.cc/douyu/7812810
-[虎牙] 狄仁杰之通天帝国,https://live.ottiptv.cc/huya/31305143
-[斗鱼] 顺才欢迎来看,https://live.ottiptv.cc/douyu/10084875
-[虎牙] 雍正王朝 雍正大帝,https://live.ottiptv.cc/huya/31380093
-[斗鱼] 萌小鬼剧,https://live.ottiptv.cc/douyu/3928
+[斗鱼] 小毅 小毅剧场,https://live.ottiptv.cc/douyu/6906628
+[虎牙] 周星星 星爷经典,https://live.ottiptv.cc/huya/11342412
+[斗鱼] 奇光 黑虎阿福乌鸦坐飞机,https://live.ottiptv.cc/douyu/12560807
+[虎牙] 连杀17人最小14岁，史上最变态的食人魔,https://live.ottiptv.cc/huya/30080142
+[斗鱼] 小毅 特级厨师刘昂星,https://live.ottiptv.cc/douyu/12851401
+[虎牙] 豆瓣经典不断,https://live.ottiptv.cc/huya/30535002
+[斗鱼] 奇光 小时｜怀旧经典老剧,https://live.ottiptv.cc/douyu/8009547
+[虎牙] 经典9.8分动作电影系列,https://live.ottiptv.cc/huya/30509122
+[斗鱼] 小毅 罗温.艾金森动画,https://live.ottiptv.cc/douyu/12890335
+[虎牙] 星爷 达文西 搞笑,https://live.ottiptv.cc/huya/30611864
+[斗鱼] 奇光 谁的青春没有终极系列,https://live.ottiptv.cc/douyu/11849873
+[虎牙] 庆yu年2 与范闲再探庙堂江湖,https://live.ottiptv.cc/huya/23740156
+[斗鱼] runningman &amp;,https://live.ottiptv.cc/douyu/4184217
+[虎牙] 滚滚长江东逝水,https://live.ottiptv.cc/huya/11352944
+[斗鱼] 幸福的童年治愈一生，不幸的童年用一生治愈,https://live.ottiptv.cc/douyu/1487654
+[虎牙] 雍正大帝 传奇一生,https://live.ottiptv.cc/huya/29807061
+[斗鱼] 贝贝 二营长你的意大利炮呢 开炮哈,https://live.ottiptv.cc/douyu/431460
+[虎牙] 特么的暴雨梨花针是我童年的阴影,https://live.ottiptv.cc/huya/11352958
+[斗鱼] 女神金 一起来看剧啦,https://live.ottiptv.cc/douyu/747764
+[虎牙] 高分经典电影,https://live.ottiptv.cc/huya/31316013
+[斗鱼] 三国演义 top1的,https://live.ottiptv.cc/douyu/12886210
+[虎牙] 鬼吹灯 胡八一 雪莉杨,https://live.ottiptv.cc/huya/31027196
+[斗鱼] 新治愈篇美食家 点餐美食,https://live.ottiptv.cc/douyu/953193
+[虎牙] 美剧史诗巨作《权力的游戏》第13期,https://live.ottiptv.cc/huya/13303478
+[斗鱼] 蓝翔 弹幕天团,https://live.ottiptv.cc/douyu/5908256
+[虎牙] 啊啊啊啊我好害怕,https://live.ottiptv.cc/huya/31312799
+[斗鱼] 冰 平安顺遂,https://live.ottiptv.cc/douyu/74374
+[虎牙] 经典 喜剧,https://live.ottiptv.cc/huya/31007029
+[斗鱼] 神 剧 的,https://live.ottiptv.cc/douyu/3439096
+[虎牙] 97前的纯港片,https://live.ottiptv.cc/huya/30951533
+[斗鱼] 鼎香楼的故事,https://live.ottiptv.cc/douyu/299854
+[虎牙] 三叉戟大背头大棍子大茶几,https://live.ottiptv.cc/huya/30951757
+[斗鱼] 元芳到底看不看,https://live.ottiptv.cc/douyu/6027991
+[虎牙] 英叔 任老爷上夜班,https://live.ottiptv.cc/huya/30513350
+[斗鱼] 斗鱼音乐MV频道 自助,https://live.ottiptv.cc/douyu/3870925
+[虎牙] 神断狄仁杰 元芳你怎么看,https://live.ottiptv.cc/huya/30219264
+[斗鱼] 家有诤子&nbsp;&nbsp;不败其家,https://live.ottiptv.cc/douyu/6911044
+[虎牙] 鹊刀门 本山大叔,https://live.ottiptv.cc/huya/31371638
+[斗鱼] 粤语电影 粤电视剧 禁止弹幕报任何剧名,https://live.ottiptv.cc/douyu/1226741
 [虎牙] 经典喜剧,https://live.ottiptv.cc/huya/31373123
-[斗鱼] 更新最全斗牌、麻将剧集解说,https://live.ottiptv.cc/douyu/9559158
-[虎牙] 鹊刀门 赵本山,https://live.ottiptv.cc/huya/30515137
-[斗鱼] 超清3人气港剧天地,https://live.ottiptv.cc/douyu/5261342
-[虎牙] 金马影帝佳作,https://live.ottiptv.cc/huya/24607121
-[斗鱼] 破案专场 为爱发电 多多支持,https://live.ottiptv.cc/douyu/12534632
-[虎牙] 港片 警匪 枪战,https://live.ottiptv.cc/huya/30597893
-[斗鱼] 经典剧场经典武侠 动作 老剧你懂的,https://live.ottiptv.cc/douyu/4246519
-[虎牙] 假期最后1天看境界！,https://live.ottiptv.cc/huya/19715329
-[斗鱼] 燕双鹰の下饭专场：我赌你碗里没菜,https://live.ottiptv.cc/douyu/11931032
+[斗鱼] 神 剧,https://live.ottiptv.cc/douyu/5875025
+[虎牙] 洪金宝元彪成龙合作电影,https://live.ottiptv.cc/huya/31312768
+[斗鱼] 1 经典港剧天地,https://live.ottiptv.cc/douyu/4290711
+[虎牙] 雍正＋王朝,https://live.ottiptv.cc/huya/30241641
+[斗鱼] ❤️怡宝❤️陪你重刷 精彩热剧,https://live.ottiptv.cc/douyu/434971
+[虎牙] 让一台冲锋车消失,https://live.ottiptv.cc/huya/30994768
+[斗鱼] ❤️ 经典 ❤️,https://live.ottiptv.cc/douyu/6091425
+[虎牙] 古灵精探午夜场,https://live.ottiptv.cc/huya/31091335
+[斗鱼] 蓝翔 。,https://live.ottiptv.cc/douyu/7459925
+[虎牙] 澳门那种电影,https://live.ottiptv.cc/huya/31295293
+[斗鱼] 正常开播，欢迎欢迎,https://live.ottiptv.cc/douyu/319576
+[虎牙] 金马影帝疯狂飙戏,https://live.ottiptv.cc/huya/30968485
+[斗鱼] 斗鱼最强女团 Kpop女团,https://live.ottiptv.cc/douyu/329667
+[虎牙] 三叉戟 大背头,https://live.ottiptv.cc/huya/31371713
+[斗鱼] 牛叔 N分钟带你看完大片,https://live.ottiptv.cc/douyu/2758565
+[虎牙] 林正英 僵尸电影,https://live.ottiptv.cc/huya/31371700
+[斗鱼] 倍速 快乐会加倍,https://live.ottiptv.cc/douyu/4105989
+[虎牙] 高分 经典,https://live.ottiptv.cc/huya/31371607
+[斗鱼] 懒猫 美食家,https://live.ottiptv.cc/douyu/260322
+[虎牙] 吞蚀星空#罗峰,https://live.ottiptv.cc/huya/29835716
+[斗鱼] 神探狄仁杰,https://live.ottiptv.cc/douyu/12655359
+[虎牙] 鬼吹灯系列 胡八一,https://live.ottiptv.cc/huya/31388739
+[斗鱼] 萌小鬼 剧,https://live.ottiptv.cc/douyu/3928
+[虎牙] 国语版柯南，点到哪集看哪集,https://live.ottiptv.cc/huya/30080148
+[斗鱼] 顺才 欢迎来看,https://live.ottiptv.cc/douyu/10084875
+[虎牙] 雍正王朝,https://live.ottiptv.cc/huya/31371678
+[斗鱼] 范闲：第二部什么时候可以播？,https://live.ottiptv.cc/douyu/7812810
+[虎牙] 士兵突击 许三多,https://live.ottiptv.cc/huya/31371626
+[斗鱼] 崔然竣五代第一男solo,https://live.ottiptv.cc/douyu/40471
+[虎牙] 雍正王朝 雍正大帝,https://live.ottiptv.cc/huya/31380093
+[斗鱼] 经典剧场 经典武侠 动作 老剧你懂的,https://live.ottiptv.cc/douyu/4246519
 [虎牙] 搞笑 僵尸 鬼片,https://live.ottiptv.cc/huya/31007237
-[斗鱼] 动作武侠 经典 古装,https://live.ottiptv.cc/douyu/2793084
-[虎牙] 成龙 经典系列 走进回忆,https://live.ottiptv.cc/huya/31194377
-[斗鱼] 大星与海绵方块,https://live.ottiptv.cc/douyu/3949681
+[斗鱼] 更新 最全斗牌、麻将剧集解说,https://live.ottiptv.cc/douyu/9559158
+[虎牙] 士兵突袭 许三多,https://live.ottiptv.cc/huya/31311890
+[斗鱼] 破案专场，为爱发电，多多支持,https://live.ottiptv.cc/douyu/12534632

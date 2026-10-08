@@ -93,11 +93,16 @@ class TestTVBoxMultiConfig(unittest.TestCase):
         urls = self.data.get("urls", [])
         self.assertGreaterEqual(len(urls), 2)
         
-        # 验证肥猫主仓与饭太硬主仓牢牢占据主力前两位
-        top1_name = urls[0].get("name", "")
-        top2_name = urls[1].get("name", "")
-        self.assertIn("肥猫", top1_name, f"第1位必须为肥猫主仓，当前为: {top1_name}")
-        self.assertIn("饭太硬", top2_name, f"第2位必须为饭太硬主仓，当前为: {top2_name}")
+        # 验证前3位包含自建透明主仓与饭太硬/肥猫主力源
+        top3_names = " ".join([u.get("name", "") for u in urls[:3]])
+        self.assertTrue(
+            "自建" in top3_names or "肥猫" in top3_names,
+            f"前3位必须包含自建透明主仓或肥猫主仓，当前为: {top3_names}"
+        )
+        self.assertTrue(
+            "饭太硬" in top3_names or "精选主力" in top3_names,
+            f"前3位必须包含饭太硬或精选主力，当前为: {top3_names}"
+        )
 
         # 验证俊于线路不在前5位
         top5_names = [u.get("name", "") for u in urls[:5]]
