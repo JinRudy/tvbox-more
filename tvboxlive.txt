@@ -52,83 +52,83 @@ BBC America (代理),https://tvbox.wushui.fun/proxy?url=http%3A//23.239.31.26%3A
 [B站] 高清国风音画精选,https://epg.pw/stream/bili_music.m3u8
 [抖音] 4K大美中国慢直播,https://epg.pw/stream/douyin_nature.m3u8
 [抖音] 经典老歌现场展播,https://epg.pw/stream/douyin_livemusic.m3u8
-[虎牙] 大家好 我曾小咸又回来啦,https://live.ottiptv.cc/huya/11336726
-[斗鱼] 愿如风有信，长与日俱中,https://live.ottiptv.cc/douyu/2228580
-[虎牙] 🔸「 最刁毛播剧间 」🔸,https://live.ottiptv.cc/huya/30590779
-[斗鱼] 小毅 你的童年我的童年好像不一样,https://live.ottiptv.cc/douyu/11851549
-[虎牙] 啊啊啊啊我好害怕,https://live.ottiptv.cc/huya/31312799
-[斗鱼] 小毅 小毅剧场,https://live.ottiptv.cc/douyu/6906628
 [虎牙] 周星星 星爷经典,https://live.ottiptv.cc/huya/11342412
+[斗鱼] 小毅 你的童年我的童年好像不一样,https://live.ottiptv.cc/douyu/11851549
+[虎牙] 🔸「 最刁毛播剧间 」🔸,https://live.ottiptv.cc/huya/30590779
+[斗鱼] 小毅 小毅剧场,https://live.ottiptv.cc/douyu/6906628
+[虎牙] 大家好 我曾小咸又回来啦,https://live.ottiptv.cc/huya/11336726
 [斗鱼] 奇光 黑虎阿福乌鸦坐飞机,https://live.ottiptv.cc/douyu/12560807
-[虎牙] 尺度上天，网飞狠剧 异装癖连环杀人魔,https://live.ottiptv.cc/huya/20969145
-[斗鱼] 小毅 顺才少爷绩优股,https://live.ottiptv.cc/douyu/12851401
-[虎牙] 少年歌行,https://live.ottiptv.cc/huya/126859
-[斗鱼] 奇光 小时｜怀旧经典老剧,https://live.ottiptv.cc/douyu/8009547
-[虎牙] 《点秋香》真人主包,https://live.ottiptv.cc/huya/25154601
-[斗鱼] 小毅 大光条子的快乐生活,https://live.ottiptv.cc/douyu/12890335
 [虎牙] 铁齿铜ya纪晓岚 经典铁三角组合,https://live.ottiptv.cc/huya/11342396
-[斗鱼] 奇光 谁的青春没有终极系列,https://live.ottiptv.cc/douyu/11849873
-[虎牙] 高分经典电影,https://live.ottiptv.cc/huya/31316013
-[斗鱼] 幸福的童年治愈一生，不幸的童年用一生治愈,https://live.ottiptv.cc/douyu/1487654
-[虎牙] 洪金宝元彪成龙合作电影,https://live.ottiptv.cc/huya/31312768
-[斗鱼] runningman &amp;,https://live.ottiptv.cc/douyu/4184217
-[虎牙] 神探狄仁杰 57明白 元芳 神断狄仁杰,https://live.ottiptv.cc/huya/30986994
-[斗鱼] ─「 橙記 最人气港剧间 」─,https://live.ottiptv.cc/douyu/4549169
-[虎牙] 士兵突袭 许三多,https://live.ottiptv.cc/huya/31311890
-[斗鱼] 贝贝 二营长你的意大利炮呢 开炮哈,https://live.ottiptv.cc/douyu/431460
-[虎牙] 星爷 达文西 搞笑,https://live.ottiptv.cc/huya/30611864
-[斗鱼] 西关大院 粤语学习,https://live.ottiptv.cc/douyu/11878141
-[虎牙] 蜡笔小新 野原的一家,https://live.ottiptv.cc/huya/29862625
-[斗鱼] 新治愈篇美食家 点餐美食,https://live.ottiptv.cc/douyu/953193
-[虎牙] 滚滚长江东逝水,https://live.ottiptv.cc/huya/11352944
-[斗鱼] 女神金 一起来看剧啦,https://live.ottiptv.cc/douyu/747764
+[斗鱼] 小毅 乐乐艾克星球冒险,https://live.ottiptv.cc/douyu/12851401
+[虎牙] 尺度上天，网飞狠剧 异装癖连环杀人魔,https://live.ottiptv.cc/huya/20969145
+[斗鱼] 奇光 小时｜怀旧经典老剧,https://live.ottiptv.cc/douyu/8009547
 [虎牙] 「 福宝 」半夜闹鬼,https://live.ottiptv.cc/huya/31059425
-[斗鱼] 三国演义 top1的,https://live.ottiptv.cc/douyu/12886210
-[虎牙] 特么的暴雨梨花针是我童年的阴影,https://live.ottiptv.cc/huya/11352958
-[斗鱼] 蓝翔 弹幕天团,https://live.ottiptv.cc/douyu/5908256
-[虎牙] 晚上好,https://live.ottiptv.cc/huya/23290745
-[斗鱼] 冰 平安顺遂,https://live.ottiptv.cc/douyu/74374
-[虎牙] 百万饭局,https://live.ottiptv.cc/huya/25701671
-[斗鱼] 鼎香楼的故事,https://live.ottiptv.cc/douyu/299854
+[斗鱼] 小毅 罗温.艾金森动画,https://live.ottiptv.cc/douyu/12890335
+[虎牙] 御.堵侠.拉斯维加斯.华仔经典电影,https://live.ottiptv.cc/huya/23290745
+[斗鱼] 奇光 谁的青春没有终极系列,https://live.ottiptv.cc/douyu/11849873
 [虎牙] 庆yu年2 与范闲再探庙堂江湖,https://live.ottiptv.cc/huya/23740156
-[斗鱼] 粤语电影 粤电视剧 禁止弹幕报任何剧名,https://live.ottiptv.cc/douyu/1226741
-[虎牙] 让一台冲锋车消失,https://live.ottiptv.cc/huya/30994768
-[斗鱼] 元芳到底看不看,https://live.ottiptv.cc/douyu/6027991
-[虎牙] 澳门那种电影,https://live.ottiptv.cc/huya/31295293
-[斗鱼] 神 剧 的,https://live.ottiptv.cc/douyu/3439096
-[虎牙] 家有儿女 刘星小雪 童年回忆,https://live.ottiptv.cc/huya/30526426
-[斗鱼] 神 剧,https://live.ottiptv.cc/douyu/5875025
-[虎牙] 三叉戟大背头大棍子大茶几,https://live.ottiptv.cc/huya/30951757
-[斗鱼] 斗鱼最强女团 Kpop女团,https://live.ottiptv.cc/douyu/329667
+[斗鱼] runningman &amp;,https://live.ottiptv.cc/douyu/4184217
+[虎牙] 英叔 僵尸 搞笑,https://live.ottiptv.cc/huya/31283988
+[斗鱼] 贝贝 二营长你的意大利炮呢 开炮哈,https://live.ottiptv.cc/douyu/431460
+[虎牙] 滚滚长江东逝水,https://live.ottiptv.cc/huya/11352944
+[斗鱼] ─「 橙記 最人气港剧间 」─,https://live.ottiptv.cc/douyu/4549169
+[虎牙] 星爷 达文西 搞笑,https://live.ottiptv.cc/huya/30611864
+[斗鱼] 幸福的童年治愈一生，不幸的童年用一生治愈,https://live.ottiptv.cc/douyu/1487654
+[虎牙] 刀刀陪看 渣渣渣渣渣康,https://live.ottiptv.cc/huya/31235261
+[斗鱼] 弹幕天团 三国,https://live.ottiptv.cc/douyu/428402
 [虎牙] 国语版柯南，点到哪集看哪集,https://live.ottiptv.cc/huya/30080148
-[斗鱼] 家有诤子&nbsp;&nbsp;不败其家,https://live.ottiptv.cc/douyu/6911044
-[虎牙] 97前的纯港片,https://live.ottiptv.cc/huya/30951533
-[斗鱼] 斗鱼音乐MV频道 自助,https://live.ottiptv.cc/douyu/3870925
-[虎牙] 金马影帝疯狂飙戏,https://live.ottiptv.cc/huya/30968485
+[斗鱼] 西关大院 粤语学习,https://live.ottiptv.cc/douyu/11878141
+[虎牙] 哪吒之魔童降世 国漫崛起,https://live.ottiptv.cc/huya/128391
+[斗鱼] 女神金 一起来看剧啦,https://live.ottiptv.cc/douyu/747764
+[虎牙] 新三国 刘关张,https://live.ottiptv.cc/huya/29863394
+[斗鱼] 三国演义 top1的,https://live.ottiptv.cc/douyu/12886210
+[虎牙] 港片 经典,https://live.ottiptv.cc/huya/30682679
+[斗鱼] 蓝翔 弹幕天团,https://live.ottiptv.cc/douyu/5908256
+[虎牙] 滚滚长江东逝水 新三国,https://live.ottiptv.cc/huya/31248609
+[斗鱼] 冰 平安顺遂,https://live.ottiptv.cc/douyu/74374
+[虎牙] 特么的暴雨梨花针是我童年的阴影,https://live.ottiptv.cc/huya/11352958
+[斗鱼] 神 剧 的,https://live.ottiptv.cc/douyu/3439096
+[虎牙] 神探狄仁杰二三 11点渔汛 摸鱼,https://live.ottiptv.cc/huya/30970882
+[斗鱼] 鼎香楼的故事,https://live.ottiptv.cc/douyu/299854
+[虎牙] 是真男人就来挑战极限,https://live.ottiptv.cc/huya/29982632
+[斗鱼] 粤语电影 粤电视剧 禁止弹幕报任何剧名,https://live.ottiptv.cc/douyu/1226741
+[虎牙] 高分经典电影,https://live.ottiptv.cc/huya/31316013
+[斗鱼] 元芳到底看不看,https://live.ottiptv.cc/douyu/6027991
+[虎牙] 雍正王朝，年羹尧四爷八爷抢皇位李卫当官,https://live.ottiptv.cc/huya/30627334
 [斗鱼] 1 经典港剧天地,https://live.ottiptv.cc/douyu/4290711
-[虎牙] 搞笑 动作,https://live.ottiptv.cc/huya/31302821
-[斗鱼] 牛叔 N分钟带你看完大片,https://live.ottiptv.cc/douyu/2758565
-[虎牙] 雍正大帝 传奇一生,https://live.ottiptv.cc/huya/29807061
+[虎牙] 童年回忆 哆啦A梦,https://live.ottiptv.cc/huya/30649359
+[斗鱼] 神 剧,https://live.ottiptv.cc/douyu/5875025
+[虎牙] 萧火火#斗破苍穹年番,https://live.ottiptv.cc/huya/618917
+[斗鱼] 斗鱼音乐MV频道 自助,https://live.ottiptv.cc/douyu/3870925
+[虎牙] 啊啊啊啊我好害怕,https://live.ottiptv.cc/huya/31311959
+[斗鱼] 家有诤子&nbsp;&nbsp;不败其家,https://live.ottiptv.cc/douyu/6911044
+[虎牙] 童年回忆 家有儿女,https://live.ottiptv.cc/huya/30523326
 [斗鱼] ❤️ 经典 ❤️,https://live.ottiptv.cc/douyu/6091425
-[虎牙] 穿西装打领带的黑社会,https://live.ottiptv.cc/huya/31087618
-[斗鱼] ❤️怡宝❤️陪你重刷 精彩热剧,https://live.ottiptv.cc/douyu/434971
 [虎牙] 飞驰人生三部曲 沈腾,https://live.ottiptv.cc/huya/29807256
 [斗鱼] 蓝翔 。,https://live.ottiptv.cc/douyu/7459925
-[虎牙] 无间道,https://live.ottiptv.cc/huya/31183556
-[斗鱼] 懒猫 美食家,https://live.ottiptv.cc/douyu/260322
-[虎牙] 一人之下,https://live.ottiptv.cc/huya/31311956
+[虎牙] 恐怖喜剧僵尸先生 新僵尸先生 林正英,https://live.ottiptv.cc/huya/30830295
 [斗鱼] 正常开播，欢迎欢迎,https://live.ottiptv.cc/douyu/319576
-[虎牙] 狄仁杰之四大天王,https://live.ottiptv.cc/huya/31160635
-[斗鱼] 倍速 快乐会加倍,https://live.ottiptv.cc/douyu/4105989
-[虎牙] 沈腾 飞驰人生 喜剧,https://live.ottiptv.cc/huya/31106626
-[斗鱼] 神探狄仁杰,https://live.ottiptv.cc/douyu/12655359
-[虎牙] 精彩 电影,https://live.ottiptv.cc/huya/31307996
-[斗鱼] 顺才 欢迎来看,https://live.ottiptv.cc/douyu/10084875
 [虎牙] 豆瓣9.8高分 放不停,https://live.ottiptv.cc/huya/30156310
+[斗鱼] ❤️怡宝❤️陪你重刷 精彩热剧,https://live.ottiptv.cc/douyu/434971
+[虎牙] 豆瓣9.1，百万人打5星好评 人生必看的电影,https://live.ottiptv.cc/huya/13303478
+[斗鱼] 懒猫 美食家,https://live.ottiptv.cc/douyu/260322
+[虎牙] 铁三角铁齿同ya纪晓岚 和珅 斗智斗勇,https://live.ottiptv.cc/huya/31392759
+[斗鱼] 顺才 欢迎来看,https://live.ottiptv.cc/douyu/10084875
+[虎牙] 玄幻 高分电影,https://live.ottiptv.cc/huya/31212603
+[斗鱼] 神探狄仁杰,https://live.ottiptv.cc/douyu/12655359
+[虎牙] 爱看 纪晓岚,https://live.ottiptv.cc/huya/29588938
 [斗鱼] 萌小鬼 剧,https://live.ottiptv.cc/douyu/3928
-[虎牙] 蜡笔小新,https://live.ottiptv.cc/huya/30527430
+[虎牙] 赵本山 鹊刀门 雀刀门 喜剧 搞笑,https://live.ottiptv.cc/huya/29805872
+[斗鱼] 倍速 快乐会加倍,https://live.ottiptv.cc/douyu/4105989
+[虎牙] 父母爱情，记录那个年代的相亲相爱,https://live.ottiptv.cc/huya/30692708
+[斗鱼] 牛叔 N分钟带你看完大片,https://live.ottiptv.cc/douyu/2758565
+[虎牙] 雍正王朝,https://live.ottiptv.cc/huya/31371678
 [斗鱼] 范闲：第二部什么时候可以播？,https://live.ottiptv.cc/douyu/7812810
-[虎牙] 经典 喜剧,https://live.ottiptv.cc/huya/31007029
+[虎牙] 古灵精探,https://live.ottiptv.cc/huya/31126589
 [斗鱼] 经典剧场 经典武侠 动作 老剧你懂的,https://live.ottiptv.cc/douyu/4246519
-[虎牙] 成龙 A计划 警察故事,https://live.ottiptv.cc/huya/29835225
+[虎牙] A计划 警察故事 成龙动作喜剧港片电影,https://live.ottiptv.cc/huya/31109333
 [斗鱼] 更新 最全斗牌、麻将剧集解说,https://live.ottiptv.cc/douyu/9559158
+[虎牙] 经典喜剧,https://live.ottiptv.cc/huya/31373123
+[斗鱼] 破案专场，为爱发电，多多支持,https://live.ottiptv.cc/douyu/12534632
+[虎牙] 神断狄仁杰 元芳你怎么看,https://live.ottiptv.cc/huya/30219264
+[斗鱼] 燕双鹰の下饭专场：我赌你碗里没菜,https://live.ottiptv.cc/douyu/11931032
