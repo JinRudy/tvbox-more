@@ -186,14 +186,15 @@ def mine_douyu_live_rooms(max_count: int = 35) -> List[Tuple[str, str]]:
     return results[:max_count]
 
 def mine_bilibili_and_douyin() -> List[Tuple[str, str]]:
-    """B站与抖音横屏精选常驻轮播与慢直播"""
+    """B站自建动态代理网关与抖音精选横屏慢直播"""
     curated = [
-        ("[B站] 经典老电影24H", "https://epg.pw/stream/bili_cinema.m3u8"),
-        ("[B站] 高清国风音画精选", "https://epg.pw/stream/bili_music.m3u8"),
+        ("[B站] 英雄联盟赛事 [官方原画]", "https://tvbox.wushui.fun/bili/6"),
+        ("[B站] 经典老电影轮播厅", "https://tvbox.wushui.fun/bili/21686237"),
+        ("[B站] 经典港片放映室", "https://tvbox.wushui.fun/bili/92613"),
+        ("[B站] 治愈系国风音乐厅", "https://tvbox.wushui.fun/bili/318"),
         ("[抖音] 4K大美中国慢直播", "https://epg.pw/stream/douyin_nature.m3u8"),
         ("[抖音] 经典老歌现场展播", "https://epg.pw/stream/douyin_livemusic.m3u8"),
     ]
-    # 对常驻地址验证可用性，若暂时不可达则回落到高可用轮播节点
     return [c for c in curated if c[1]]
 
 def build_cleaned_live_channels(output_path: str) -> int:
