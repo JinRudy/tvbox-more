@@ -151,7 +151,7 @@ def build_self_hosted_vod(output_path: str) -> int:
                 })
 
     vod_config = {
-        "spider": "",
+        "spider": "https://tvbox.wushui.fun/jar/fan.txt;md5;42869e09ec9d744c7ab61b6ae27839b8",
         "sites": valid_sites,
         "parses": [
             {

@@ -38,5 +38,14 @@ class TestTVBoxVodConfig(unittest.TestCase):
         self.assertFalse(token_val.startswith("http://") or token_val.startswith("https://"), "纯净主仓不应外挂公开网盘 Token 引用")
         self.assertEqual(open_token_val, "", "严禁在点播主仓泄露个人 Open Token")
 
+    def test_valid_spider_jar(self):
+        """测试 TVBox 核心必经 Dex Spider Jar 存在且配置完整 (防 Jar包解析失败 报错)"""
+        spider = self.data.get("spider") or ""
+        self.assertTrue(len(spider) > 10, "必须配置有效的 spider jar 路径，严禁为空字符串导致 TVBox 解析崩溃")
+        self.assertIn(";md5;", spider, "spider 配置必须包含标准 MD5 完整性校验")
+        jar_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../jar/fan.txt"))
+        self.assertTrue(os.path.exists(jar_path), "自建托管的 jar/fan.txt 必须存在于仓库中")
+        self.assertGreater(os.path.getsize(jar_path), 500000, "自建 jar 文件体积必须正常 (>500KB)")
+
 if __name__ == "__main__":
     unittest.main()
