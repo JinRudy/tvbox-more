@@ -1,52 +1,4 @@
-const https = require("https");
-const { URL } = require("url");
-
-function fetchHttps(urlStr, headers = {}, timeoutMs = 5000) {
-  return new Promise((resolve, reject) => {
-    const u = new URL(urlStr);
-    const options = {
-      protocol: u.protocol,
-      hostname: u.hostname,
-      port: u.port || 443,
-      path: u.pathname + u.search,
-      method: "GET",
-      headers: {
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15",
-        ...headers,
-      },
-      timeout: timeoutMs,
-    };
-
-    const req = https.request(options, (res) => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        const nextUrl = new URL(res.headers.location, urlStr).href;
-        return resolve(fetchHttps(nextUrl, headers, timeoutMs));
-      }
-
-      const chunks = [];
-      res.on("data", (chunk) => chunks.push(chunk));
-      res.on("end", () => {
-        resolve({
-          statusCode: res.statusCode,
-          headers: res.headers,
-          body: Buffer.concat(chunks),
-        });
-      });
-    });
-
-    req.on("error", (err) => reject(err));
-    req.on("timeout", () => {
-      req.destroy();
-      reject(new Error("Request Timeout after " + timeoutMs + "ms"));
-    });
-    req.end();
-  });
-}
-
 module.exports = async (req, res) => {
-  const { room_id } = req.query;
-
-  // 1. CORS
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "*");
@@ -55,34 +7,75 @@ module.exports = async (req, res) => {
     return res.status(200).end();
   }
 
-  // 2. 动态向 B 站 API 换取当期有效的真实直播流
-  const roomId = room_id || "6";
-  const apiUrl = `https://api.live.bilibili.com/room/v1/Room/playUrl?cid=${encodeURIComponent(roomId)}&quality=4&platform=h5`;
+  const { room_id } = req.query;
+  const inputId = (room_id || "6").trim();
 
   try {
-    const apiResp = await fetchHttps(apiUrl, {
-      "Referer": `https://live.bilibili.com/${roomId}`,
-    }, 4000);
+    // 1. 自动转换短号为真实长号 room_id 并检查开播状态
+    const initUrl = `https://api.live.bilibili.com/room/v1/Room/room_init?id=${encodeURIComponent(inputId)}`;
+    const initResp = await fetch(initUrl, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": `https://live.bilibili.com/${inputId}`,
+      },
+      signal: AbortSignal.timeout(5000),
+    });
 
-    const apiData = JSON.parse(apiResp.body.toString("utf-8"));
-    if (apiData.code === 0 && apiData.data && apiData.data.durl && apiData.data.durl.length > 0) {
-      let liveUrl = apiData.data.durl[0].url;
+    const initData = await initResp.json();
+    if (initData.code !== 0 || !initData.data?.room_id) {
+      console.warn(`[BiliProxy] Room ${inputId} not found:`, initData?.message);
+      return res.status(404).send(`Room ${inputId} not found`);
+    }
 
-      // 如果返回的是海外 ov-gotcha 域名，替换为国内通用的 cn-gotcha 域名，确保国内电视秒开
-      if (liveUrl.includes("-ov-gotcha")) {
-        liveUrl = liveUrl.replace(/-ov-gotcha\d+/, "-cn-gotcha104");
+    const realRoomId = initData.data.room_id;
+    const isLive = initData.data.live_status === 1;
+
+    if (!isLive) {
+      console.warn(`[BiliProxy] Room ${inputId} (real: ${realRoomId}) is offline`);
+      return res.status(404).send(`Room ${inputId} is currently offline`);
+    }
+
+    // 2. 调用 getRoomPlayInfo 动态获取当期超清直播流 (优先 FLV，画质原画超清且免 oi 限制)
+    const apiUrl = `https://api.live.bilibili.com/xlive/web-room/v2/index/getRoomPlayInfo?room_id=${encodeURIComponent(realRoomId)}&protocol=0,1&format=0,1,2&codec=0,1&qn=10000&platform=web`;
+    const apiResp = await fetch(apiUrl, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": `https://live.bilibili.com/${realRoomId}`,
+      },
+      signal: AbortSignal.timeout(5000),
+    });
+
+    const apiData = await apiResp.json();
+    if (apiData.code === 0 && apiData.data?.playurl_info?.playurl?.stream) {
+      const streams = apiData.data.playurl_info.playurl.stream;
+      
+      let selectedUrl = "";
+      const flvStream = streams.find((s) => s.protocol_name === "http_stream");
+      if (flvStream && flvStream.format && flvStream.format.length > 0) {
+        const codec = flvStream.format[0].codec[0];
+        if (codec && codec.url_info && codec.url_info.length > 0) {
+          const urlInfo = codec.url_info[0];
+          selectedUrl = urlInfo.host + codec.base_url + urlInfo.extra;
+        }
       }
 
-      console.log(`[BiliProxy] Success: 302 Redirecting Room ${roomId} to live stream`);
-      res.setHeader("Location", liveUrl);
+      if (!selectedUrl) {
+        const hlsStream = streams.find((s) => s.protocol_name === "http_hls") || streams[0];
+        const format = hlsStream.format[0];
+        const codec = format.codec[0];
+        const urlInfo = codec.url_info[0];
+        selectedUrl = urlInfo.host + codec.base_url + urlInfo.extra;
+      }
+
+      console.log(`[BiliProxy] Success: 302 redirecting Room ${inputId} (real: ${realRoomId}) to live stream`);
+      res.setHeader("Location", selectedUrl);
       res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
       return res.status(302).end();
     } else {
-      console.warn(`[BiliProxy] Room ${roomId} is offline or error:`, apiData);
-      return res.status(404).send(`Room ${roomId} is offline`);
+      return res.status(404).send(`Room ${inputId} stream not found`);
     }
   } catch (err) {
-    console.error("[BiliProxy] API Failed:", err.message);
+    console.error("[BiliProxy] Error:", err.message);
     return res.status(502).send("API Failed: " + err.message);
   }
 };
