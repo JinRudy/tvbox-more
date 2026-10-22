@@ -1,7 +1,5 @@
 {
   "spider": "",
-  "token": "https://tvbox.wushui.fun/token.json",
-  "token_url": "https://tvbox.wushui.fun/token.json",
   "sites": [
     {
       "key": "liangzi",

@@ -31,13 +31,12 @@ class TestTVBoxVodConfig(unittest.TestCase):
             self.assertNotIn("免费订阅", s.get("name", ""))
             self.assertNotIn("加群", s.get("name", ""))
 
-    def test_cloud_token_reference(self):
-        """测试包含统一云端免扫码 Token 引用"""
-        token_ref = self.data.get("token") or self.data.get("token_url")
-        self.assertTrue(
-            token_ref and "tvbox.wushui.fun/token.json" in token_ref,
-            "必须包含指向云端 tvbox.wushui.fun/token.json 的免扫码配置"
-        )
+    def test_pure_opensource_no_token_leak(self):
+        """测试 100% 开源直链纯净化点播主仓，不依赖且不泄露个人敏感网盘 Token"""
+        token_val = self.data.get("token") or ""
+        open_token_val = self.data.get("open_token") or ""
+        self.assertFalse(token_val.startswith("http://") or token_val.startswith("https://"), "纯净主仓不应外挂公开网盘 Token 引用")
+        self.assertEqual(open_token_val, "", "严禁在点播主仓泄露个人 Open Token")
 
 if __name__ == "__main__":
     unittest.main()

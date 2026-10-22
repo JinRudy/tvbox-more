@@ -152,8 +152,6 @@ def build_self_hosted_vod(output_path: str) -> int:
 
     vod_config = {
         "spider": "",
-        "token": TOKEN_URL,
-        "token_url": TOKEN_URL,
         "sites": valid_sites,
         "parses": [
             {
