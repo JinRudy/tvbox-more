@@ -50,5 +50,18 @@ python3 scripts/audit_and_generate.py
 
 ### 2. 运行配置合规性单元测试
 ```bash
-python3 -m unittest tests/test_tvbox.py
+python3 -m unittest discover tests
 ```
+
+---
+
+## 📺 B 站直播动态解析网关 (Vercel 香港节点)
+
+针对 TVBox / 电视端原生播放 B 站直播流防盗链（403）、WAF 风控（412）以及 Token 定时失效问题，本项目提供基于 Vercel 香港边缘节点的动态 302 重定向服务：
+
+- **服务域名**：`https://tv-bilibili.minifog.org.cn/bili/:room_id`
+- **使用规范**：在电视播放源中追加标准 Referer 防盗链标头即可实现 100% 稳定秒开：
+  ```text
+  https://tv-bilibili.minifog.org.cn/bili/6#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
+  ```
+

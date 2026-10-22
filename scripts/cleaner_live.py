@@ -188,10 +188,10 @@ def mine_douyu_live_rooms(max_count: int = 35) -> List[Tuple[str, str]]:
 def mine_bilibili_and_douyin() -> List[Tuple[str, str]]:
     """B站自建动态代理网关与抖音精选横屏慢直播"""
     curated = [
-        ("[B站] 英雄联盟赛事 [官方原画]", "https://tvbox.wushui.fun/bili/6"),
-        ("[B站] 经典老电影轮播厅", "https://tvbox.wushui.fun/bili/21686237"),
-        ("[B站] 经典港片放映室", "https://tvbox.wushui.fun/bili/92613"),
-        ("[B站] 治愈系国风音乐厅", "https://tvbox.wushui.fun/bili/318"),
+        ("[B站] 英雄联盟赛事 [官方原画]", "https://tv-bilibili.minifog.org.cn/bili/6#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
+        ("[B站] 经典老电影轮播厅", "https://tv-bilibili.minifog.org.cn/bili/21686237#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
+        ("[B站] 经典港片放映室", "https://tv-bilibili.minifog.org.cn/bili/92613#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
+        ("[B站] 治愈系国风音乐厅", "https://tv-bilibili.minifog.org.cn/bili/318#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
         ("[抖音] 4K大美中国慢直播", "https://epg.pw/stream/douyin_nature.m3u8"),
         ("[抖音] 经典老歌现场展播", "https://epg.pw/stream/douyin_livemusic.m3u8"),
     ]

@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "regions": ["hkg1"],
+  "rewrites": [
+    { "source": "/bili/:room_id", "destination": "/api/bili?room_id=:room_id" }
+  ]
+}

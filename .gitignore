@@ -7,3 +7,4 @@ token.json
 *secret*
 *.env
 config/my_token.json
+.vercel

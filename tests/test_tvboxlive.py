@@ -45,6 +45,11 @@ class TestTVBoxLiveConfig(unittest.TestCase):
         # 验证包含基于 Cloudflare 的代理转发链接
         self.assertIn("tvbox.wushui.fun/proxy?url=", self.content, "必须包含针对海外受限频道的云端代理链接")
 
+    def test_bilibili_proxy_channels(self):
+        """测试包含基于 Vercel 香港节点的 B 站专属动态解析源与请求头配置"""
+        self.assertIn("tv-bilibili.minifog.org.cn/bili/", self.content, "必须包含 Vercel B 站专属域名解析")
+        self.assertIn("#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/", self.content, "必须包含标准 TVBox Referer 防盗链请求头")
+
     def test_no_crash_characters_and_fake_mp4(self):
         """测试严禁包含导致电视盒子解析截断的字符和假短视频"""
         lines = self.content.splitlines()
