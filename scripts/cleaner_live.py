@@ -186,15 +186,14 @@ def mine_douyu_live_rooms(max_count: int = 35) -> List[Tuple[str, str]]:
     return results[:max_count]
 
 def mine_bilibili_and_douyin() -> List[Tuple[str, str]]:
-    """B站自建动态代理网关与抖音精选横屏慢直播"""
+    """B站自建动态代理网关影视与24小时超清慢直播"""
     curated = [
         ("[B站] 英雄联盟赛事 [官方原画]", "https://tv-bilibili.minifog.org.cn/bili/6#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
         ("[B站] 德云色┃老实憨厚的笑笑", "https://tv-bilibili.minifog.org.cn/bili/7777#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
-        ("[B站] 经典老电影轮播厅", "https://tv-bilibili.minifog.org.cn/bili/21686237#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
-        ("[B站] 经典港片放映室", "https://tv-bilibili.minifog.org.cn/bili/92613#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
-        ("[B站] 治愈系国风音乐厅", "https://tv-bilibili.minifog.org.cn/bili/318#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
-        ("[抖音] 4K大美中国慢直播", "https://epg.pw/stream/douyin_nature.m3u8"),
-        ("[抖音] 经典老歌现场展播", "https://epg.pw/stream/douyin_livemusic.m3u8"),
+        ("[B站] 老片回放┃武林外传", "https://tv-bilibili.minifog.org.cn/bili/22102223#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
+        ("[B站] 经典剧场┃纪晓岚", "https://tv-bilibili.minifog.org.cn/bili/23333830#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
+        ("[B站] 空间站4K俯瞰地球", "https://tv-bilibili.minifog.org.cn/bili/22973029#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
+        ("[B站] 火车司机第一视角", "https://tv-bilibili.minifog.org.cn/bili/27841685#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/"),
     ]
     return [c for c in curated if c[1]]
 

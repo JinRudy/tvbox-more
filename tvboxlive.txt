@@ -50,11 +50,10 @@ BBC America (代理),https://tvbox.wushui.fun/proxy?url=http%3A//23.239.31.26%3A
 🎮虎牙斗鱼轮播,#genre#
 [B站] 英雄联盟赛事 [官方原画],https://tv-bilibili.minifog.org.cn/bili/6#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
 [B站] 德云色┃老实憨厚的笑笑,https://tv-bilibili.minifog.org.cn/bili/7777#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
-[B站] 经典老电影轮播厅,https://tv-bilibili.minifog.org.cn/bili/21686237#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
-[B站] 经典港片放映室,https://tv-bilibili.minifog.org.cn/bili/92613#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
-[B站] 治愈系国风音乐厅,https://tv-bilibili.minifog.org.cn/bili/318#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
-[抖音] 4K大美中国慢直播,https://epg.pw/stream/douyin_nature.m3u8
-[抖音] 经典老歌现场展播,https://epg.pw/stream/douyin_livemusic.m3u8
+[B站] 老片回放┃武林外传,https://tv-bilibili.minifog.org.cn/bili/22102223#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
+[B站] 经典剧场┃纪晓岚,https://tv-bilibili.minifog.org.cn/bili/23333830#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
+[B站] 空间站4K俯瞰地球,https://tv-bilibili.minifog.org.cn/bili/22973029#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
+[B站] 火车司机第一视角,https://tv-bilibili.minifog.org.cn/bili/27841685#User-Agent=Mozilla/5.0&Referer=https://live.bilibili.com/
 [虎牙] 大家好 我曾小咸又回来啦,https://live.ottiptv.cc/huya/11336726
 [斗鱼] 会呼吸的女孩真的很加分,https://live.ottiptv.cc/douyu/10796599
 [虎牙] 周星星 星爷经典,https://live.ottiptv.cc/huya/11342412
@@ -83,7 +82,7 @@ BBC America (代理),https://tvbox.wushui.fun/proxy?url=http%3A//23.239.31.26%3A
 [斗鱼] 冰 平安顺遂,https://live.ottiptv.cc/douyu/74374
 [虎牙] 鬼吹灯系列 胡八一,https://live.ottiptv.cc/huya/31388739
 [斗鱼] 斗鱼音乐MV频道 自助,https://live.ottiptv.cc/douyu/3870925
-[虎牙] 黄渤演技巅峰 国产荒诞喜剧《杀生》,https://live.ottiptv.cc/huya/13303478
+[虎牙] 50万人拍案叫绝的国产犯罪经典，男主全程没有,https://live.ottiptv.cc/huya/13303478
 [斗鱼] 神 剧,https://live.ottiptv.cc/douyu/5875025
 [虎牙] 古灵精探,https://live.ottiptv.cc/huya/31091289
 [斗鱼] 粤语电影 粤电视剧 禁止弹幕报任何剧名,https://live.ottiptv.cc/douyu/1226741
