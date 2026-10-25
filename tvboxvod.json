@@ -38,6 +38,15 @@
       "filterable": 1
     },
     {
+      "key": "guangsu",
+      "name": "🎬光速资源┃高清画质",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "jisu",
       "name": "🎬极速资源┃秒开专线",
       "type": 1,
