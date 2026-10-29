@@ -20,15 +20,6 @@
       "filterable": 1
     },
     {
-      "key": "baofeng",
-      "name": "🎬暴风资源┃多线备用",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/from/bfm3u8/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "hongniu",
       "name": "🎬红牛资源┃超清极速",
       "type": 1,
