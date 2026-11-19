@@ -27,15 +27,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "jisu",
-      "name": "🎬极速资源┃秒开专线",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     }
   ],
   "parses": [
